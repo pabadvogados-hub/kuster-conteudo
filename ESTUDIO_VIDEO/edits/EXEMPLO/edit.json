@@ -1,0 +1,23 @@
+{
+  "_leia": "Copie esta pasta, troque o nome e preencha. Explicacao campo a campo em docs/COMO_EDITAR_UM_SHORT.md",
+
+  "video": "take.mp4",
+  "captions": "take.json",
+
+  "accent": "#1F6FEB",
+
+  "ranges": [
+    { "fromMs": 0, "toMs": 8400 },
+    { "fromMs": 9100, "toMs": 21600 },
+    { "fromMs": 23050, "toMs": 34900 }
+  ],
+
+  "hook": { "text": "Hora de *espera* nao e descanso", "seconds": 2.8 },
+
+  "callouts": [
+    { "text": "Lei 13.103", "atMs": 11200 },
+    { "text": "Diario de bordo", "atMs": 26400 }
+  ],
+
+  "showCaptions": true
+}

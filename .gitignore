@@ -1,0 +1,34 @@
+# Credenciais - NUNCA versionar
+config/.env
+config/*.json
+
+# Conteudo gerado (rascunho) e material bruto
+SAIDA/
+logs/
+
+# Video, audio e legenda: ficam na maquina do escritorio
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.ogg
+*.m4a
+ESTUDIO_VIDEO/public/*.json
+ESTUDIO_VIDEO/edits/*/final.mp4
+ESTUDIO_VIDEO/out/
+ESTUDIO_VIDEO/temp/
+ESTUDIO_VIDEO/whisper.cpp/
+
+# Node / Python
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temporarios
+*.tmp
+~$*
+.DS_Store
